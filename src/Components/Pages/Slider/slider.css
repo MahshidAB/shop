@@ -1,0 +1,17 @@
+.pics {
+    width: 50%;
+    height: 350px;
+    margin-right: 25%;
+    margin-bottom: 6%;
+}
+
+.carousel-control-prev{
+    right:auto;
+}
+.carousel-item {
+    margin-left: 0;
+}
+
+.color {
+    color: rgb(87,92,96);
+  }

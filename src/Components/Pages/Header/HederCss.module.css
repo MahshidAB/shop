@@ -1,0 +1,38 @@
+nav {
+  /* background-color: #ac87c5 !important; */
+  background-color: rgb(178, 175, 239) !important;
+}
+
+#linkStyle {
+  color: whitesmoke !important;
+}
+#linkStyle:hover {
+  color: #756ab6 !important;
+}
+
+#dropdown {
+  text-decoration: none;
+  color: #756ab6;
+}
+#dropdown:hover {
+  color: #E0AED0;
+  /* color: rgb(87, 92, 96); */
+}
+
+#dir {
+  text-align: right;
+  padding-right: 0px;
+  width: 170px;
+}
+
+#active {
+  background-color: red;
+}
+
+
+@media screen and (max-width: 992px) {
+  li {
+    width: 150px;
+  }
+
+}

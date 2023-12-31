@@ -1,0 +1,170 @@
+.linkStyle {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+#btnStyle {
+  background-color: #ac87c5;
+  /* background-color: rgb(178, 175, 239); */
+  color: white;
+}
+.img {
+  width: 500px;
+  margin-top: 20px;
+}
+#text {
+  text-align: justify;
+  line-height: 1.8;
+  color: rgb(87, 92, 96);
+  font-size: 0.9rem;
+}
+
+#color {
+  color: #756ab6;
+}
+
+#price {
+  color: rgb(87, 92, 96);
+}
+#textColor {
+  color: rgb(71, 75, 77);
+}
+
+#card:hover {
+  box-shadow: 0.7px 0.7px;
+}
+#background {
+  background-color: #8d80d7;
+}
+
+#label {
+  /* color: #3a3947; */
+  color: white;
+}
+
+#warning {
+  /* color: #5947be; */
+  color: #e0aed0
+}
+
+#btn {
+  background-color: #e0aed0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.size {
+  height: 61vh;
+  color: #756ab6;
+}
+/* #list {
+    background-color: #E0AED0;
+  } */
+
+#table {
+  height: 61vh;
+  /* color: #756ab6; */
+  /* background-color: #e0aed0; */
+  background-color: #8d80d7;
+}
+
+@media screen and (max-width: 1400px) {
+  .img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .img {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .img {
+    width: 350px;
+  }
+
+  #table {
+    padding: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    height: 64vh;
+  }
+  #tableM {
+    margin-top: 2rem !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  #media {
+    text-align: center;
+  }
+  #table {
+    padding: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    height: 64vh;
+  }
+  #tableM {
+    margin-top: 2rem !important;
+  }
+
+}
+
+@media screen and (max-width: 962px) {
+  #table {
+    padding: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    height: 64vh;
+  }
+  #tableM {
+    margin-top: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  #table {
+    padding: 1rem !important;
+    margin-top: 1rem !important;
+    height: 64vh;
+  }
+  #tableM {
+    margin-top: 0.01rem !important;
+  }
+}
+
+@media screen and (max-width: 914px) {
+  #table {
+    padding: 0.9rem !important;
+    margin-top: 1.5rem !important;
+    height: 64vh;
+  }
+  #tableM {
+    margin-top: 0.5rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #table {
+    padding: 0.8rem !important;
+    margin-top: 1.5rem !important;
+    height: 64vh;
+  }
+  #tableM {
+    margin-top: 0.01rem !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #table {
+    padding: 0.5rem !important;
+    margin-top: 1.5rem !important;
+    height: 64vh;
+  }
+  #tableM {
+    margin-top: 0.01rem !important;
+  }
+}

@@ -1,0 +1,85 @@
+.linkStyle {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+#btnStyle {
+  /* background-color: #AC87C5; */
+  background-color: rgb(178, 175, 239);
+  color: white;
+  box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.3)
+}
+#btnStyle:hover {
+  box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.6)
+}
+
+.img {
+  width: 500px;
+  margin-top: 20px;
+}
+#text {
+  text-align: justify;
+  line-height: 1.8;
+  color: rgb(87,92,96);
+  font-size: 0.9rem;
+}
+
+#color {
+  color: #756AB6;
+}
+
+#price {
+  color: rgb(87,92,96);
+}
+
+#card:hover {
+  box-shadow: 0.7px 0.7px;
+}
+
+#background {
+  /* background-color: #E0AED0; */
+  background-color: #8d80d7;
+}
+
+#label {
+  /* color: #3a3947 */
+  color: white;
+}
+
+#warning {
+  color: #5947be
+}
+
+#btn {
+  background-color: #E0AED0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .img {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .img {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #media {
+    text-align: center;
+  }
+}

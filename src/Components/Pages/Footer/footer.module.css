@@ -1,0 +1,12 @@
+.footer {
+    /* background-color: #ac87c5; */
+    background-color: rgb(178, 175, 239) !important;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 30px;
+    text-decoration: center;
+}
