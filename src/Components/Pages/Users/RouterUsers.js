@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Users from "./Users";
+import Users from "./Users"
 import CreateUsers from "./CreateUsers";
 import DeleteUser from "./DeleteUser";
 import EditUser from "./EditUser";

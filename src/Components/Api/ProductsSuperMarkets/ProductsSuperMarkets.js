@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const instance = axios.create ({
-    baseURL: "http://localhost:3004/Products_SuperMarket"
+    // baseURL: "http://localhost:3004/Products_SuperMarket"
+    // baseURL: "https://github.com/MahshidAB/dataBase.git/Products_SuperMarket"
+    baseURL: "https://my-json-server.typicode.com/MahshidAB/main-database-part-four/Products_SuperMarket"
 })
 
 export const getAllProductsSuperMarkets = async () => {

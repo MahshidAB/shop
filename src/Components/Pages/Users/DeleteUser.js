@@ -30,7 +30,7 @@ const DeleteUser = () => {
           icon: "success",
         });
         const res = axios.delete(
-          `http://localhost:3004/users/${id}`,
+          `https://my-json-server.typicode.com/MahshidAB/main-database-part-one/users/${id}`,
           { method: "delete" }
         );
         navigate("/");

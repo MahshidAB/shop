@@ -9,7 +9,7 @@ const EditCellphone = () => {
   const fetchCellphone = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:3004/Products_CellPhone/${id}`
+        `https://my-json-server.typicode.com/MahshidAB/main-database-part-two/Products_CellPhone/${id}`
       );
       setCellphone(res.data);
     } catch (error) {

@@ -18,7 +18,7 @@ const UpdateUser = ({ user }) => {
     const updateUser = async () => {
       try {
         const res = await axios.put(
-          `http://localhost:3004/users/${user.id}`,
+          `https://my-json-server.typicode.com/MahshidAB/main-database-part-one/users/${user.id}`,
           {
             ...user,
             name: name,

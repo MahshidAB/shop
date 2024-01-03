@@ -30,7 +30,7 @@ const DeleteSuperMarket = () => {
           icon: "success",
         });
         const res = axios.delete(
-          `http://localhost:3004/Products_SuperMarket/${id}`,
+          `https://my-json-server.typicode.com/MahshidAB/main-database-part-four/Products_SuperMarket/${id}`,
           { method: "delete" }
         );
         navigate("/productSuperMarkets")

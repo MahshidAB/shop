@@ -30,7 +30,7 @@ const DeleteSampleProduct = () => {
             icon: "success",
           });
           const res = axios.delete(
-            `http://localhost:3004/sampleProducts/${id}`,
+            `https://my-json-server.typicode.com/MahshidAB/main-database-part-one/sampleProducts/${id}`,
             { method: "delete" }
           );
           console.log(res.data);

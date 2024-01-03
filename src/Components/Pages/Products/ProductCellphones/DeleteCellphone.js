@@ -30,7 +30,7 @@ const DeleteCellphone = () => {
           icon: "success",
         });
         const res = axios.delete(
-          `http://localhost:3004/Products_CellPhone/${id}`,
+          `https://my-json-server.typicode.com/MahshidAB/main-database-part-two/Products_CellPhone/${id}`,
           { method: "delete" }
         );
         navigate("/productsCellphones")

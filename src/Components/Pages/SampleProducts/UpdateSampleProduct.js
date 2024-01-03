@@ -13,7 +13,7 @@ const UpdateSampleProduct = ({sample}) => {
     const updateSampleProduct = async () => {
       try {
         const res = await axios.put(
-          `http://localhost:3004/sampleProducts/${sample.id}`,
+          `https://my-json-server.typicode.com/MahshidAB/main-database-part-one/sampleProducts/${sample.id}`,
           {
             ...sample,
             title: title,

@@ -17,6 +17,7 @@ const LoginUser = () => {
     const user = users?.filter(
       (elem) => elem.username === username && elem.password === password
     );
+    console.log(typeof(user));
     if (user.length >= 1) {
       navigate(`/login/${user[0].id}`);
     } else if (user.length == 0) {

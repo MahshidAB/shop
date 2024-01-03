@@ -8,7 +8,7 @@ const EditSuperMarket = () => {
   const [market, setMarket] = useState(null);
   const fetchSuperMarket = async () => {
     const res = await axios.get(
-      `http://localhost:3004/Products_SuperMarket/${id}`
+      `https://my-json-server.typicode.com/MahshidAB/main-database-part-four/Products_SuperMarket/${id}`
     );
     setMarket(res.data);
   };

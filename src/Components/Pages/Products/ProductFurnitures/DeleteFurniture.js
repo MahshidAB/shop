@@ -30,7 +30,7 @@ const DeleteFurniture = () => {
           icon: "success",
         });
         const res = axios.delete(
-          `http://localhost:3004/Products_Furniture/${id}`,
+          `https://my-json-server.typicode.com/MahshidAB/main-database-part-three/Products_Furniture/${id}`,
           { method: "delete" }
         );
         navigate("/productsFurnitures");

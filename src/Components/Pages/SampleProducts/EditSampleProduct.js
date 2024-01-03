@@ -7,7 +7,7 @@ const EditSampleProduct = () => {
   const { id } = useParams();
   const [sample, setSample] = useState(null);
   const fetchSampleProduct = async () => {
-    const res = await axios.get(`http://localhost:3004/sampleProducts/${id}`);
+    const res = await axios.get(`https://my-json-server.typicode.com/MahshidAB/main-database-part-one/sampleProducts/${id}`);
     setSample(res.data);
   };
   useEffect(() => {

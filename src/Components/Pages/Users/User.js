@@ -9,7 +9,8 @@ const User = () => {
 
   const fetchUser = async () => {
     try {
-      const res = await axios.get(`http://localhost:3004/users/${id}`);
+      // const res = await axios.get(`http://localhost:3004/users/${id}`);
+      const res = await axios.get(`https://my-json-server.typicode.com/MahshidAB/main-database-part-one/users/${id}`);
       setUser(res.data);
     } catch (error) {
       console.log(error.message);

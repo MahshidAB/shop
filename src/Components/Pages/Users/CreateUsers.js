@@ -33,7 +33,7 @@ const CreateUsers = () => {
 
     const fetchUsers = async () => {
       try {
-        const res = await axios.post("http://localhost:3004/users", formdata, {
+        const res = await axios.post("https://my-json-server.typicode.com/MahshidAB/main-database-part-one/users", formdata, {
           headers: {
             "Content-type": "application/json; charset=UTF-8",
           },

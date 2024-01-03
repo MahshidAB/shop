@@ -1,9 +1,7 @@
 const Users = () => {
-  return (
-    <>
-    <h1>users</h1>
-    </>
-  );
-};
-
+    return ( 
+        <h1>users</h1>
+     );
+}
+ 
 export default Users;

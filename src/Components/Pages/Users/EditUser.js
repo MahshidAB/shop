@@ -8,7 +8,7 @@ const EditUser = () => {
   const [user, setUser] = useState(null);
   const fetchUser = async () => {
     const res = await axios.get(
-      `http://localhost:3004/users/${id}`
+      `https://my-json-server.typicode.com/MahshidAB/main-database-part-one/users/${id}`
     );
     setUser(res.data);
   };

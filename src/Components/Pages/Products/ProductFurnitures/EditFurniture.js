@@ -9,7 +9,7 @@ const EditFurniture = () => {
   const fetchFurniture = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:3004/Products_Furniture/${id}`
+        `https://my-json-server.typicode.com/MahshidAB/main-database-part-three/Products_Furniture/${id}`
       );
       setFurniture(res.data);
     } catch (error) {
