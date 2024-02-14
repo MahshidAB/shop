@@ -17,7 +17,7 @@ const LoginUser = () => {
     const user = users?.filter(
       (elem) => elem.username === username && elem.password === password
     );
-    console.log(typeof(user));
+    console.log(typeof user);
     if (user.length >= 1) {
       navigate(`/login/${user[0].id}`);
     } else if (user.length == 0) {
@@ -25,16 +25,18 @@ const LoginUser = () => {
         text: "کاربری با این مشخصات یافت نشد!",
         icon: "error",
       });
-      navigate("/login")
+      navigate("/login");
     }
-    usernameRef.current.value = ""
-    passRef.current.value = ""
+    usernameRef.current.value = "";
+    passRef.current.value = "";
   };
   useEffect(() => {
     usernameRef.current.focus();
     const fetchUser = async () => {
       try {
-        const res = await axios.get("http://localhost:3004/users");
+        const res = await axios.get(
+          "https://my-json-server.typicode.com/MahshidAB/main-database-part-one/users"
+        );
         setUsers(res.data);
       } catch (error) {
         console.log(error.message);
@@ -72,7 +74,7 @@ const LoginUser = () => {
               placeholder="پسورد"
               className="form-control mb-3"
               onChange={(e) => setPassword(e.target.value)}
-              ref = {passRef}
+              ref={passRef}
             />
           </div>
           <div className="d-block">
